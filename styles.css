@@ -1,41 +1,9 @@
 
 /* Your CSS Code here. */
-button{
-	display: inline;
-}
-
-div{
-	display: block;
-}
-
-span{
-	display: inline;
-}
-
-p{
-	display: block;
-}
-
-input{
-	display: inline;
-}
-
-cite{
-	display: inline;
-}
-
-code{
-	display: inline;
-}
-
-h1{
-	display: block;
-}
-
-sup{
-	display: inline;
-}
-
-sub{
-	display: inline;
-}
+.block-inline-button, .block-inline-span, .block-inline-input, .block-inline-cite, .block-inline-code, .block-inline-sup, .block-inline-sub {
+        display: inline;
+    }
+    
+    .block-inline-div, .block-inline-p, .block-inline-h1 {
+        display: block;
+    }
